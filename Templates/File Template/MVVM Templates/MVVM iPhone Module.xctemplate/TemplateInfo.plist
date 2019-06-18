@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MVVM Module</string>
+	<key>Description</key>
+	<string>MVVM iPhone Templates</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___iPhoneViewController</string>
+			<key>Description</key>
+			<string>The iPhine View Controller name</string>
+			<key>Identifier</key>
+			<string>iPhoneViewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___iPhoneRouter</string>
+			<key>Description</key>
+			<string>The view iPhoneRouter name</string>
+			<key>Identifier</key>
+			<string>iPhoneRouterName</string>
+			<key>Name</key>
+			<string>iPhone Router Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___iPhoneView</string>
+			<key>Description</key>
+			<string>The storyboard iPhone View name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>Storyboard iPhone view Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>Description</key>
+			<string>What view controller class to subclass for the new scene</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;UIKit/UIKit.h&gt;</string>
+			<key>Identifier</key>
+			<string>viewControllerSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>UIViewController</string>
+			</array>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<string>9</string>
+	<key>Summary</key>
+	<string>MVVM iPhone Templates</string>
+</dict>
+</plist>
