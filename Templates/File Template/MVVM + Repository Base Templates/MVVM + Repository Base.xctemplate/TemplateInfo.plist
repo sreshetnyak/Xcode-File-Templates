@@ -62,6 +62,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Repository</string>
+			<key>Description</key>
+			<string>The view Repository name</string>
+			<key>Identifier</key>
+			<string>repositoryName</string>
+			<key>Name</key>
+			<string>View Repository Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
@@ -83,6 +97,20 @@
 			<string>viewName</string>
 			<key>Name</key>
 			<string>Storyboard view name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Router</string>
+			<key>Description</key>
+			<string>View router name</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Name</key>
+			<string>View Router name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
