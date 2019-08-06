@@ -15,7 +15,7 @@ protocol ___VARIABLE_sceneName___Route {
 }
 
 extension ___VARIABLE_sceneName___Route where Self: RouterProtocol {
-    func show___VARIABLE_sceneName___(injector: Container) {
+    func show___VARIABLE_sceneName___() {
         let viewController = ___VARIABLE_sceneName___Builder.build(injector: injector)
         open(viewController, transition: ___VARIABLE_sceneName___Transition)
     }

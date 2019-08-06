@@ -9,6 +9,6 @@
 import Foundation
 
 class ___VARIABLE_sceneName___Router: Router<___VARIABLE_sceneName___ViewController> {
-    typealias Routes =
+//    typealias Routes =
     
 }

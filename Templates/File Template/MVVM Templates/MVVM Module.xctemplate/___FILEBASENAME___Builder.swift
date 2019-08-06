@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import Swiftject
+import Swinject
 
 class ___VARIABLE_sceneName___Builder {
     

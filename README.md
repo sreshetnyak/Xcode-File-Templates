@@ -7,9 +7,17 @@ Templates Contains:
 - MVVM + Repository Pattern Templates;
 - MVVM + Repository Pattern Templates for separate device development; 
 
+Template Requirements:
+===============
+- Swinject | https://github.com/Swinject/Swinject | Dependency injection framework for Swift with iOS/macOS/Linux
+- RxSwift | https://github.com/ReactiveX/RxSwift | Reactive Programming in Swift
 
----------------------
+
+Templates Description:
+==============
+
 Classic MVVM Templates:
+-----
 - ViewModel.swift
 - ViewController.swift
 - View.storyboard
@@ -17,6 +25,7 @@ Classic MVVM Templates:
 
 ---------------------
 MVVM + Repository Pattern Templates
+-----
 - ViewModel.swift
 - ViewController.swift
 - View.storyboard
@@ -27,6 +36,7 @@ MVVM + Repository Pattern Templates
 
 ---------------------
 MVVM + Repository Pattern Templates for separate device development; 
+-----
 
 Base Module:
 - ViewModel.swift
@@ -38,7 +48,7 @@ Base Module:
 Device Modules:
 - DeviceViewController.swift
 - DeviceView.storyboard
-
+s
 Builder files has got possibility for manage current device type.
 
 

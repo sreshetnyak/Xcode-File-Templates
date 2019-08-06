@@ -13,12 +13,12 @@ class ___VARIABLE_sceneName___Repository {
 
     // MARK: - Properties
     private var disposeBag = DisposeBag()
-
-    private var databaseProvider:
-    private var networkProvider:
-
-    init(databaseProvider: , networkProvider: ) {
-        self.databaseProvider = databaseProvider
-        self.networkProvider = networkProvider
-    }
+//
+//    private var databaseProvider:
+//    private var networkProvider:
+//
+//    init(databaseProvider: , networkProvider: ) {
+//        self.databaseProvider = databaseProvider
+//        self.networkProvider = networkProvider
+//    }
 }
