@@ -26,6 +26,7 @@ Classic MVVM Templates:
 ---------------------
 MVVM + Repository Pattern Templates
 -----
+Base:
 - ViewModel.swift
 - ViewController.swift
 - View.storyboard
@@ -34,8 +35,12 @@ MVVM + Repository Pattern Templates
 - Route.swift
 - Repository.swift
 
+Base:
+- ViewModelTests.swift
+
+
 ---------------------
-MVVM + Repository Pattern Templates for separate device development; 
+MVVM + Repository Pattern Templates for separate device development: 
 -----
 
 Base Module:
@@ -48,7 +53,7 @@ Base Module:
 Device Modules:
 - DeviceViewController.swift
 - DeviceView.storyboard
-s
+
 Builder files has got possibility for manage current device type.
 
 

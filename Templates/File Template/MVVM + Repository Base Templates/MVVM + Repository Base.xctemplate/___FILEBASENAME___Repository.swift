@@ -9,6 +9,12 @@
 import RxCocoa
 import RxSwift
 
+// MARK: - ___VARIABLE_sceneName___RepositoryProtocol
+protocol ___VARIABLE_sceneName___RepositoryProtocol {
+    
+}
+
+// MARK: - ___VARIABLE_sceneName___Repository
 class ___VARIABLE_sceneName___Repository {
 
     // MARK: - Properties
@@ -21,4 +27,9 @@ class ___VARIABLE_sceneName___Repository {
 //        self.databaseProvider = databaseProvider
 //        self.networkProvider = networkProvider
 //    }
+}
+
+// MARK: - ___VARIABLE_sceneName___Repository:  ___VARIABLE_sceneName___RepositoryProtocol
+extension ___VARIABLE_sceneName___Repository:  ___VARIABLE_sceneName___RepositoryProtocol {
+    
 }
