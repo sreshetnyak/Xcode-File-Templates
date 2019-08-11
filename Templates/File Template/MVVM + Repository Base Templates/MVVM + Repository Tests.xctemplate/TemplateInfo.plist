@@ -26,9 +26,23 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewModelTests</string>
+			<string>___VARIABLE_sceneName:identifier___</string>
 			<key>Identifier</key>
-			<string>tests</string>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewModelTest</string>
+			<key>Description</key>
+			<string>The viewModel Test name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>View Model Test Name:</string>
+			<key>Required</key>
+			<true/>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
