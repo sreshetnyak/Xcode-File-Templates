@@ -7,7 +7,6 @@ Templates Contains:
 - Base Project Setup Templates (extensions and network & database managers)
 - MVVM + Repository Pattern Templates 
 - MVVM + Repository Tests
-- MVVM + Repository Pattern Templates for separate device development
 
 Template Requirements:
 ===============
@@ -49,23 +48,6 @@ Base:
 
 Appendix | Unit Tests:
 - ViewModelTests.swift
-
----------------------
-MVVM + Repository Pattern Templates for separate device development: 
------
-Base Module:
-- ViewModel.swift
-- Builder.swift
-- Router.swift
-- Route.swift
-- Repository.swift
-
-Device Modules:
-- DeviceViewController.swift
-- DeviceView.storyboard
-
-Builder files has got possibility for manage current device type.
-
 
 Setup Guide:
 ===============
