@@ -1,4 +1,4 @@
-# Xcode_File_Templates
+# Xcode File Templates
 Xcode File Templates for automatic files creating 
 
 Templates Contains:
@@ -27,6 +27,7 @@ Base Project Setup:
 - StoryboardInitializable & CellInizializable
 
 ---------------------
+
 Classic MVVM Templates:
 -----
 - ViewModel.swift
@@ -35,6 +36,7 @@ Classic MVVM Templates:
 - Builder.swift
 
 ---------------------
+
 MVVM + Repository Pattern Templates:
 -----
 Base:
@@ -48,6 +50,8 @@ Base:
 
 Appendix | Unit Tests:
 - ViewModelTests.swift
+---------------------
+
 
 Setup Guide:
 ===============
