@@ -92,6 +92,6 @@
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>Summary</key>
-	<string>Contains base module for files using MVVM and Repository Patterns</string>
+	<string>Contains base module for files using MVVM</string>
 </dict>
 </plist>
