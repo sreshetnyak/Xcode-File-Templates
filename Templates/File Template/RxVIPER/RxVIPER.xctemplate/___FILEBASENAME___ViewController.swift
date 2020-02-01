@@ -1,0 +1,37 @@
+//
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  ___COPYRIGHT___
+//
+
+import RxCocoa
+import RxSwift
+
+class ___VARIABLE_sceneName___ViewController: UIViewController, StoryboardInitializable {
+
+    // MARK: - Outlets
+
+
+    // - Private properties
+    private var disposeBag = DisposeBag()
+
+    var presenter: ___VARIABLE_sceneName___Presenter!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+        setupBinding()
+    }
+
+    // MARK: - Setup
+    private func setupUI() {
+
+    }
+
+    private func setupBinding() {
+
+    }
+
+}

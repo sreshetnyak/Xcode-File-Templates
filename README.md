@@ -6,6 +6,8 @@ Xcode File Templates for automatic files creating
 - Base Project Setup Templates (extensions and network & database managers)
 - MVVM + Repository Pattern Templates 
 - MVVM + Repository Tests
+- RxVIPER Templates Pattern
+- RxVIPER Test for Presenter based on XCTestCase
 
 ## Template Requirements:
 - Swinject | https://github.com/Swinject/Swinject | Dependency injection framework for Swift with iOS/macOS/Linux
@@ -43,6 +45,21 @@ Xcode File Templates for automatic files creating
 
 **Appendix | Unit Tests:**
 - ViewModelTests.swift
+
+---------------------
+
+### RxVIPER Templates:
+**Base:**
+- Presenter.swift
+- ViewController.swift
+- View.storyboard
+- Builder.swift
+- Router.swift
+- Route.swift
+- Iteractor.swift
+
+**Appendix | Unit Tests:**
+- PresenterTests.swift
 
 
 
