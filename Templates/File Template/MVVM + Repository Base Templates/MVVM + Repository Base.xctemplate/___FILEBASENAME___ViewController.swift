@@ -15,23 +15,22 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, StoryboardInitia
 
 
     // MARK: - Properties
-    private var disposeBag = DisposeBag()
+    private var bag = DisposeBag()
 
     var viewModel: ___VARIABLE_sceneName___ViewModel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setupUI()
-        setupBinding()
+        self.config()
+        self.binding()
     }
 
     // MARK: - Setup
-    private func setupUI() {
+    private func config() {
 
     }
 
-    private func setupBinding() {
+    private func binding() {
 
     }
 

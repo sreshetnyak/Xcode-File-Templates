@@ -18,7 +18,7 @@ protocol ___VARIABLE_sceneName___RepositoryProtocol {
 class ___VARIABLE_sceneName___Repository {
 
     // MARK: - Properties
-    private var disposeBag = DisposeBag()
+    private var bag = DisposeBag()
 //
 //    private var databaseProvider:
 //    private var networkProvider:
