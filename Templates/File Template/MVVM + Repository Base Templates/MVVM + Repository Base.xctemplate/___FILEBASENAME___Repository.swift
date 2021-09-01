@@ -9,13 +9,13 @@
 import RxCocoa
 import RxSwift
 
-// MARK: - ___VARIABLE_sceneName___RepositoryProtocol
-protocol ___VARIABLE_sceneName___RepositoryProtocol {
+// MARK: - ___VARIABLE_sceneName___Repository
+protocol ___VARIABLE_sceneName___Repository {
     
 }
 
-// MARK: - ___VARIABLE_sceneName___Repository
-class ___VARIABLE_sceneName___Repository {
+// MARK: - ___VARIABLE_sceneName___RepositoryImpl
+class ___VARIABLE_sceneName___RepositoryImpl {
 
     // MARK: - Properties
     private var bag = DisposeBag()
@@ -29,7 +29,7 @@ class ___VARIABLE_sceneName___Repository {
 //    }
 }
 
-// MARK: - ___VARIABLE_sceneName___Repository:  ___VARIABLE_sceneName___RepositoryProtocol
-extension ___VARIABLE_sceneName___Repository:  ___VARIABLE_sceneName___RepositoryProtocol {
+// MARK: - ___VARIABLE_sceneName___RepositoryImpl:  ___VARIABLE_sceneName___Repository
+extension ___VARIABLE_sceneName___RepositoryImpl: ___VARIABLE_sceneName___Repository {
     
 }

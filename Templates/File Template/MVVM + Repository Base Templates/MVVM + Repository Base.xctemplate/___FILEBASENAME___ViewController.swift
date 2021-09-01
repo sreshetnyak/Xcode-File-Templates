@@ -15,7 +15,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, StoryboardInitia
 
 
     // MARK: - Properties
-    private var bag = DisposeBag()
+    private let bag = DisposeBag()
 
     var viewModel: ___VARIABLE_sceneName___ViewModel!
 
@@ -33,5 +33,4 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, StoryboardInitia
     private func binding() {
 
     }
-
 }

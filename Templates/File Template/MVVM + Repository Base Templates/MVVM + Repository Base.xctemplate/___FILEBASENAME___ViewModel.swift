@@ -12,15 +12,15 @@ import RxCocoa
 class ___VARIABLE_sceneName___ViewModel {
     
     // MARK: - Router
-    var router: ___VARIABLE_sceneName___Router
-    var repository: ___VARIABLE_sceneName___RepositoryProtocol
+    let router: ___VARIABLE_sceneName___Router
+
+    let repository: ___VARIABLE_sceneName___Repository
     
     // MARK: - Properties
-    private var disposeBag = DisposeBag()
+    private let bag = DisposeBag()
 
-    init(router: ___VARIABLE_sceneName___Router, repository: ___VARIABLE_sceneName___RepositoryProtocol) {
+    init(router: ___VARIABLE_sceneName___Router, repository: ___VARIABLE_sceneName___Repository) {
         self.router = router
         self.repository = repository
     }
-
 }
