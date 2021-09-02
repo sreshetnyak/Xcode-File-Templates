@@ -16,10 +16,10 @@ class ___VARIABLE_sceneName___Builder {
 
         let vc = ___VARIABLE_sceneName___ViewController.board(name: .___VARIABLE_sceneName___)
 
-        let router = ___VARIABLE_sceneName___Router(injector: injector)
+        let router = ___VARIABLE_sceneName___RouterImpl(injector: injector)
         router.viewController = vc
         
-        let repository = ___VARIABLE_sceneName___Repository()
+        let repository = ___VARIABLE_sceneName___RepositoryImpl()
         
         let viewModel = ___VARIABLE_sceneName___ViewModel(router: router, repository: repository)
         
